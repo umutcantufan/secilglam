@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const PageContainer = ({children}) => {
+const PageContainer = ({ children }) => {
   return (
-    <div className='w-10/12 m-auto'>{children}</div>
-  )
+    <div className='w-10/12 m-auto pb-24'>
+      {children}
+    </div>
+  );
 }
 
-export default PageContainer
+export default PageContainer;
